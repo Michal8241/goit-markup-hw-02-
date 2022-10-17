@@ -17,8 +17,6 @@
 
 .list-filtrs {
     background: var(--second-white);
-    font-size: 16px;
-    line-height: 0.61em;
     list-style: none;
 }
 
@@ -35,9 +33,23 @@
 .advertisement>button {
     cursor: pointer;
 }
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 0.85em;
+    color: var(--black-main);
+    background-color: var(--main-white);
+}
+.name>span {
+    font-size: 16px;
+    line-height: 0.85em;
+    color :var(--main-silver);
+}
 
 .list-filtrs>li>button {
     border: 0;
+    font-size: 16px;
+    line-height: 0.61em;
 }
 
 .projects-list {
@@ -184,10 +196,11 @@
 .ourteam>ul {
     list-style: none;
 }
-.loremipsum>h4 {
+.loremipsum>li>h4 {
     font-weight: 700;
     font-size: 14px;
     line-height: 0.85em;
+    color: var(--black-main)
 }
 .loremipsum {
     list-style: none;

@@ -82,6 +82,10 @@ body {
     text-decoration: none;
     color: var(--second-black);
 }
+.logo>a {
+    text-decoration: none;
+    color: inherit;
+}
 .footer-class {
     font-size: 26px;
     font-weight: 700;
